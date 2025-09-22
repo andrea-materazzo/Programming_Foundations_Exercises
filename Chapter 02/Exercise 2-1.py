@@ -17,3 +17,10 @@
 # Riverfolk, IN 43286
 # 812-555-1212
 # Computer Science
+
+name = "Andrea"
+address = "Musterstrasse"
+city, state, zipCode = "Musterstadt", "Musterkanton", 1000
+telNr = 799999999
+major = "BIT"
+print(name, address, city, state, zipCode, telNr, major)

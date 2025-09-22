@@ -1,6 +1,7 @@
 # Design Exercise 1: Turtle Graphics - Diamond Pattern
 #
 # Task: Use turtle graphics to draw a pattern of two diamonds.
+import turtle
 #
 # Requirements:
 # 1. Import the turtle module
@@ -28,3 +29,21 @@
 # Note: Use begin_fill() and end_fill() to fill the shapes with color
 #
 # Expected result: Two blue diamond shapes drawn on the screen
+turtle.hideturtle()
+turtle.pencolor('blue')
+turtle.left(135)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.done()
